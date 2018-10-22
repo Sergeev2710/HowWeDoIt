@@ -41,6 +41,7 @@ body
   opacity: 1
   &.ishome
     .site-header
+      background-image: url("../img/main-header.jpg")
       min-height: 700px
       height: 100vh
       background-color: $dark
@@ -482,12 +483,16 @@ $colors: $red, #65A0E4, $orange
 .s
   &-king, &-review, &-skills
     padding: 5% 0
+  &-review
+    background-image: url("../img/background-content.jpg")
 
   &-king
+    background-image: url("../img/photos/iphone.jpg")
     p
       margin: 30px 0
       font-size: 18px
   &-call
+    background-image: url("../img/forma.jpg")
     &::before
       content: ''
       position: absolute
@@ -497,6 +502,7 @@ $colors: $red, #65A0E4, $orange
       background-color: rgba($accent, .9)
 
   &-skills.section-overlay
+    background-image: url("../img/background-content.jpg")
     &::before
       background-color: #fff
     .h2
